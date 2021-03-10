@@ -1,0 +1,177 @@
+public class Vee2
+{
+private string name;
+private int id;
+private int password;
+  
+  public string get name()
+  {
+  return name;
+  }
+  public int get id()
+  {
+  retun id;
+  }
+  public int get password()
+  {
+  return password;
+  }
+  public void set name (string N)
+  {
+  name=N;
+  }
+  public void set id (int I)
+  {
+  id=I;
+  }
+  public void set password (int P)
+  {
+  password=P;
+  }
+  }
+public class Encapsulation
+{
+public static void main(string args[])
+{
+Vee2 v = new Vee2();
+v.setname("Sankari");
+v.setid("re512");
+v.setpassword("De43");
+System.out.println("Name:" +v.getname");
+System.out.println("Id:" +v.getid");
+System.out.println("Password:" +v.getpassword");
+}
+}
+
+output: Name    : Sankari
+        Id      : re512
+		Password: De43
+		
+		
+		
+		
+
+
+
+
+
+
+
+		
+
+
+
+
+		
+public class Bank
+{
+private string name;
+private int ac;
+private string email;
+  
+  public string get name()
+  {
+  return name;
+  }
+  public int get ac()
+  {
+  retun ac;
+  }
+  public string get ()
+  {
+  return email;
+  }
+  public void set name (string N)
+  {
+  name=N;
+  }
+  public void set id (int A)
+  {
+  ac=A;
+  }
+  public void set email (int E)
+  {
+  email=E;
+  }
+  }
+public class Encapsulation
+{
+public static void main(string args[)]
+{
+Bank b = new Bank();
+b.setname("Sankari");
+b.setac("12345667");
+b.setemail("san2gmail.com");
+System.out.println("Name:" +b.getname");
+System.out.println("Ac:" +b.getac");
+System.out.println("Email:" +v.getemail");
+}
+}
+
+output: Name    : Sankari
+        Ac      : 12345667
+		Email   : san2gmail.com
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		public class Number
+{
+private int n1
+private int n2;
+  
+ public int get n1()
+  {
+  return n1;
+  }
+  public int get n2()
+  {
+  retun n2;
+  }
+  
+  public void set n1(int N1)
+  {
+  n1=N1;
+  }
+  public void set n2 (int N2)
+  {
+  n2=N2;
+  }
+  }
+public class Encapsulation
+{
+public static void main(string args[)]
+{
+Number b = new Number();
+b.setn1("12");
+b.setn2("16");
+System.out.println(b.getn1());
+System.out.println(b.getn2());
+}
+}
+
+output : 12
+         16

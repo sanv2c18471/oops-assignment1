@@ -1,0 +1,89 @@
+interface drawable
+{
+void draw();
+}
+class A implements drawable
+{
+public void draw()
+{
+System.out.println("Rectangle");
+}
+public class Test
+{
+public static void main(String args[])
+{
+A obj = new A();
+obj.draw();
+}
+}
+
+output : Rectangle
+
+
+
+
+
+interface drawable
+{
+void draw();
+void show();
+}
+class A implements drawable
+{
+public void draw()
+{
+System.out.println("Rectangle");
+}
+class B implements drawable
+{
+public void show()
+{
+System.out.println("Circle");
+}
+}
+public class Test1
+{
+public static void main(String args[])
+{
+A obj = new A();
+obj.draw();
+B obj1 = new B();
+obj1.show();
+}
+}
+
+output : Rectangle
+         Circle
+
+
+
+
+
+
+
+
+interface A
+{
+void draw();
+}
+interface B
+{
+void draw();
+}
+class child implements A,B
+{
+public void draw()
+{
+System.out.println("Rectangle");
+}
+public class Test
+{
+public static void main(String args[])
+{
+child obj = new child();
+obj.draw();
+}
+}
+
+output : Rectangle
+

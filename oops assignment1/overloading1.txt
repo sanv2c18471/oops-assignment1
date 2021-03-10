@@ -1,0 +1,48 @@
+class Multiplication
+{
+int mul(int a, int b)
+{
+return(a*b);
+}
+int mul(int a, int b, int c)
+{
+return(a*b*c)
+}
+class Overloading
+{
+public static void main(String args[])
+{
+System.out.println(multiplication.mul(10,5));
+System.out.println(multiplication.mul(10,5,2));
+}
+}
+  
+ output: 50
+         100
+		 
+		 
+		 
+		 
+		 
+class Addition
+{
+int add (int a, int b)
+{
+return(a+b);
+}
+float add (int a, int b, int c)
+{
+return(a+b+c);
+}
+class Overloading
+{
+public static void main(String args[])
+{
+System.out.println(addition.add(10,5));
+System.out.println(addition.add(10.0,5.0,2.0));
+}
+}
+  
+ output: 15
+         17.0
+		 

@@ -1,0 +1,107 @@
+public class Animal
+{
+void eat(){
+system.out.println("food");
+}
+}
+public class Dog extends Animal
+{
+void bark();
+system.out.println("wow wow");
+}
+public class Intheritance
+{
+public static void main(string args[])
+}
+{
+dog d= new dog();
+d.bark();
+d.eat();
+}
+
+output: wow wow
+        food
+        
+
+
+public class person
+{
+void fat(){
+system.out.println("big");
+}
+}
+public class Student extends Person
+{
+void short();
+system.out.println("small");
+}
+public class Intheritance
+{
+public static void main(string args[])
+}
+{
+student s = new student();
+s.short();
+s.fat();
+}
+
+output: small
+        big
+        
+
+
+public class Birds
+{
+void eat(){
+system.out.println("apple");
+}
+}
+public class Parrot extends Birds
+{
+void talk();{
+system.out.println("Hai");
+}
+public class Intheritance
+{
+public static void main(string args[])
+}
+{
+Parrot p = new Parrot();
+p.talk();
+p.eat();
+}
+}
+
+output: Hai
+        apple
+
+
+
+
+
+
+public class Adder
+{
+public int add(int a,int b){
+return a+b;
+}
+}
+public class Subraction extends Adder
+{
+public int sub(int a,int b){
+return a-b;
+}
+public class Intheritance
+{
+public static void main(string args[])
+{
+sub s = new sub();
+int sum=s.add(5,5);
+int diff=s.sub(10,5);
+System.out.println("sum");
+System.out.println("diff");
+}
+}
+
+output: 10
+        5

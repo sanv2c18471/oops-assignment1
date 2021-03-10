@@ -1,0 +1,44 @@
+public class Animal
+{
+void eat()
+System.out.println("food");
+}
+public class Dog extends Animal
+{
+void eat();
+System.out.println("wow wow");
+}
+public class Overridding
+{
+public static void main(string args)[]
+{
+dog d= new dog();
+d.eat();
+}
+
+output: wow wow
+        
+		
+		
+		
+		
+public class Animal
+{
+void eat()
+System.out.println("food");
+}
+public class Dog extends Animal
+{
+void eat();
+}
+public class Overridding
+{
+public static void main(string args)[]
+{
+dog d= new dog();
+d.eat();
+}
+
+output: food
+        
+		

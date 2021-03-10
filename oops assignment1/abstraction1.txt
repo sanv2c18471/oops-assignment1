@@ -1,0 +1,112 @@
+abstract class Motor
+{
+abstract void run()
+}
+class Vgppump extends Motor
+{
+void run()
+}
+{
+system.out.println("water flowing");
+}
+}
+public class Abstraction
+{
+public static void main(string arg[])
+{
+Motor v = new Vgppump();
+v.run();
+}
+}
+output : water flowing
+
+
+
+
+
+
+abstract class bike
+{
+abstract void run()
+}
+class royal extends bike
+{
+void run()
+}
+{
+system.out.println("running smooth");
+}
+}
+public class Abstraction
+{
+public static void main(string args])
+{
+bike r = new royal();
+r.run();
+}
+}
+output : running smooth
+
+
+
+
+
+
+abstract class furnitures
+{
+abstract void tree()
+}
+class chair extends furnitures
+{
+void tree()
+}
+{
+system.out.println("chair is made up of wood");
+}
+}
+public class Abstraction
+{
+public static void main(string args[])
+{
+furnitures f = new chair();
+f.tree();
+}
+}
+output : chair is made up of wood
+
+
+
+
+
+
+
+abstract class Draw
+{
+abstract void shapes()
+void show();
+}
+class Circle extends Draw
+{
+void show()
+{
+system.out.println("Draw circle");
+}
+}
+class Rectangle extends Draw
+{
+void shape()
+{
+system.out.println("Draw rectangle");
+}
+public class Abstraction
+{
+public static void main(string args[])
+{
+draw c = new circle();
+draw r = new rectangle();
+c.show();
+c.shape();
+}
+}
+output : Draw circle
+         Draw rectangle
